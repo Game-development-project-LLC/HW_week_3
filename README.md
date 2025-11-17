@@ -15,6 +15,10 @@
 - **Pause system**  
   Added a simple pause feature: pressing `Esc` or `P` toggles pause. When the game is paused, time is frozen (Time.timeScale = 0) and a “PAUSED” message is displayed in the center of the screen; pressing the key again resumes the game.
 
+  - **Restart button on end screens**  
+  Added a UI “Restart” button on the win/lose screen. Clicking it restarts the game.
+
+
 
 
 # Unity week 2: Formal elements
