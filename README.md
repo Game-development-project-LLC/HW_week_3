@@ -20,7 +20,8 @@ link to game: https://omerzshahar.itch.io/rocket-ship-improvments
 - **Restart button on end screens**  
   Added a UI “Restart” button on the win/lose screen. Clicking it restarts the game.
 
-
+## Programming:
+* Omer Shahar (omerzshahar@gmail.com)
 
 
 # Unity week 2: Formal elements
