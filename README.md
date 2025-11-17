@@ -1,3 +1,5 @@
+link to game: https://omerzshahar.itch.io/rocket-ship-improvments
+
 ## Changes and Additions
 
 - **Score as fixed HUD**  
