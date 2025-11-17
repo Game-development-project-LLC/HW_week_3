@@ -1,3 +1,22 @@
+## Changes and Additions
+
+- **Score as fixed HUD**  
+  Moved the score display from a floating text above the player to a UI TextMeshPro element anchored to the top-right corner of the screen (Canvas with “Scale With Screen Size”), so it stays in the correct position on any resolution.
+
+- **Ammo system + fire cooldown**  
+  Added limited ammo per level and a 0.5 second cooldown between shots. When ammo reaches zero, the player can no longer shoot and the game automatically loads the next scene. At the start of each level the ammo is refilled.
+
+- **Ammo display in top-left corner**  
+  Added a HUD element (TextMeshPro + NumberField) in the top-left corner that shows the current remaining ammo in real time.
+
+- **Low-ammo color warning**  
+  Implemented a visual warning on the ammo HUD: the ammo text changes color when ammo is low (e.g., yellow under a certain threshold) and turns red when ammo is empty, giving the player clear feedback before running out of shots.
+
+- **Pause system**  
+  Added a simple pause feature: pressing `Esc` or `P` toggles pause. When the game is paused, time is frozen (Time.timeScale = 0) and a “PAUSED” message is displayed in the center of the screen; pressing the key again resumes the game.
+
+
+
 # Unity week 2: Formal elements
 
 A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
